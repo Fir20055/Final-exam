@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>تواصل معنا</title>
+    <style>
+     body {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+   background-image:url('backgraond.jpg');
+         color: #fff;
+background-size: cover;
+background-position-x: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+     }
+    .navbar {
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    position: sticky;
+        top: 0;
+        z-index: 100;
+   }
+   .navbar .brand {
+       font-size: 24px;
+       font-weight: bold;
+       color: #fff;
+   }
+  .navbar .links a {
+      color: #fff;
+ text-decoration: none;
+ margin-left: 20px;
+ font-weight: bold;
+    transition: 0.3s;
+  }
+    .navbar .links a:hover {
+        color: #ffb6c1;
+    }
+    .contact-container {
+        max-width: 450px;
+        margin: 100px auto;
+   padding: 30px;
+   background: rgba(255, 255, 255, 0.95);
+   border-radius: 12px;
+       box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+       color: #333;
+   }
+   .contact-container h2 {
+       text-align: center;
+       margin-bottom: 20px;
+       color: #6a11cb;
+   }
+   .contact-container input,
+   .contact-container textarea {
+            width: 100%;
+     padding: 12px;
+     margin-top: 10px;
+     margin-bottom: 15px;
+     border-radius: 8px;
+     border: 1px solid #ccc;
+     resize: none;
+     font-size: 16px;
+        }
+    .contact-container button {
+        width: 100%;
+ padding: 12px;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: #fff;
+        border: none;
+  border-radius: 8px;
+  font-weight: bold;
+        cursor: pointer;
+   font-size: 18px;
+        transition: 0.3s; }
+    .contact-container button:hover {
+        background: linear-gradient(45deg, #2575fc, #6a11cb);
+        transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <img src="logo.png" alt=" logo" width="200" height="50">
+
+   <div class="links">
+       <a href="index.html">الرئيسية</a>
+  <a href="login.html">تسجيل الدخول</a>
+       <a href="about.html">من نحن</a>
+       <a href="contact.html">تواصل معنا</a>
+   </div>
+    </nav>
+
+    <div class="contact-container">
+        <h2>تواصل معنا</h2>
+   <form>
+  <input type="text" placeholder="الاسم">
+  <input type="email" placeholder="البريد الإلكتروني">
+  <textarea rows="5" placeholder="رسالتك"></textarea>
+  <button type="submit">إرسال</button>
+        </form>
+    </div>
+
+</body>
+</html>
