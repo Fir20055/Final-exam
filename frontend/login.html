@@ -8,26 +8,18 @@
 
    body {
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- margin: 0;
- padding: 0;
+
    background-image:url('backgraond.jpg');
          color: #fff;
 background-size: cover;
 background-position-x: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
-
   }
       .navbar {
-  display: flex;
- justify-content: space-between;
   align-items: center;
  background: rgba(0,0,0,0.6);
- padding: 15px 30px;
 box-shadow: rgb(8, 8, 19);
-  position: sticky;
-     top: 0;
-            z-index: 100;
         }
 
  .navbar .brand {
@@ -47,12 +39,10 @@ box-shadow: rgb(8, 8, 19);
   margin: 100px auto;
            padding: 30px;
              background: rgba(255,255,255,0.95);
-      border-radius: 12px;
             box-shadow: 0 8px 20px rgba(0,0,0,0.3);
             color: #333; }
         .login-container h2 {
             text-align: center;
-  margin-bottom: 20px;
             color: #6a11cb; }
 
   .login-container input {
@@ -62,7 +52,7 @@ box-shadow: rgb(8, 8, 19);
      margin-bottom: 15px;
    border-radius: 8px;
  border: 1px solid #172d91;
-            font-size: 16px;  }
+ font-size: 16px;  }
 
         .login-container button {
             width: 100%;
@@ -70,15 +60,10 @@ box-shadow: rgb(8, 8, 19);
             background: linear-gradient(45deg, #6a11cb, #2575fc);
               color: #fff;
       border: none;
-            border-radius: 8px;
    font-weight: bold;
-      cursor: pointer;
+
        font-size: 18px;
-            transition: 0.3s;
-        }
-   .login-container button:hover {
- background: linear-gradient(45deg, #2575fc, #6a11cb);
-            transform: scale(1.05);
+
         }
     </style>
 </head>
@@ -86,21 +71,20 @@ box-shadow: rgb(8, 8, 19);
 
     <nav class="navbar">
   <img src="logo.png" alt=" logo" width="200" height="50">
-
  <div class="links">
-            <a href="index.html">الرئيسية</a>
+  <a href="index.html">الرئيسية</a>
   <a href="login.html">تسجيل الدخول</a>
-      <a href="about.html">من نحن</a>
-            <a href="contact.html">تواصل معنا</a>
-        </div>
-    </nav>
+ <a href="about.html">من نحن</a>
+    <a href="contact.html">تواصل معنا</a>
+   </div>
+   </nav>
     <div class="login-container">
-        <h2>تسجيل الدخول</h2>
-        <form>
-   <input type="text" placeholder="اسم المستخدم">
-            <input type="password" placeholder="كلمة المرور">
-            <button type="submit">تسجيل الدخول</button>
-        </form>
+ <h2>تسجيل الدخول</h2>
+   <form>
+ <input type="text" placeholder="اسم المستخدم">
+   <input type="password" placeholder="كلمة المرور">
+   <button type="submit">تسجيل الدخول</button>
+ </form>
     </div>
 
 </body>
